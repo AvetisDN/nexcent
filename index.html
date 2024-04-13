@@ -17,7 +17,150 @@
     <link rel="stylesheet" href="src/css/main.css" />
   </head>
   <body>
-    <button class="btn btn-primary">Click Me Please</button>
+    <!-- Hero Section -->
+    <div class="bg-silver d-flex flex-column hero-section">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg py-2 py-md-3 py-xl-4">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="src/images/logo.svg" alt="Nexcent" height="24" />
+          </a>
+          <button
+            class="navbar-toggler px-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav mx-auto mb-2 mb-lg-0 gap-xl-3 gap-xxl-5 fw-medium"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Feature</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">FAQ</a>
+              </li>
+            </ul>
+            <div class="d-flex align-items-center gap-3">
+              <button class="btn btn-outline-primary btn-sm">Login</button>
+              <button class="btn btn-primary btn-sm">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Hero Slider -->
+      <div class="container hero-slider">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row h-100 align-items-center">
+                <div class="col-12 col-md-7 order-1 order-md-0">
+                  <h1 class="text-d-grey">
+                    Lessons and insights
+                    <div class="text-primary">from 8 years</div>
+                  </h1>
+                  <p class="text-grey">
+                    Where to grow your business as a photographer: site or
+                    social media?
+                  </p>
+                  <button class="btn btn-primary">Register</button>
+                </div>
+                <div class="col-12 col-md-5 order-0">
+                  <img
+                    src="src/images/illustrations/1.png"
+                    class="w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row h-100 align-items-center">
+                <div class="col-7">
+                  <h1>Lessons and insights from 8 years</h1>
+                  <p>
+                    Where to grow your business as a photographer: site or
+                    social media?
+                  </p>
+                  <button class="btn btn-primary">Register</button>
+                </div>
+                <div class="col-5">
+                  <img
+                    src="src/images/illustrations/2.png"
+                    class="w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row h-100 align-items-center">
+                <div class="col-7">
+                  <h1>Lessons and insights from 8 years</h1>
+                  <p>
+                    Where to grow your business as a photographer: site or
+                    social media?
+                  </p>
+                  <button class="btn btn-primary">Register</button>
+                </div>
+                <div class="col-5">
+                  <img
+                    src="src/images/illustrations/3.png"
+                    class="w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Clients Section -->
+    <div class="container clients-section">
+      <h2>Our Clients</h2>
+    </div>
 
     <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
